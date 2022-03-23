@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
@@ -5,6 +15,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 img {
@@ -24,4 +36,49 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: rgb(114, 113, 113);
+  text-decoration: none;
+}
+
+/* Header  */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-links, .right-links {
+  display: flex;
+  margin: 3rem;
+  gap: 3rem;
+}
+
+/* Main Page */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 86vh;
+}
+
+/* Buttons */
+.buttons button {
+  padding: 1rem;
+}
+
+/* Footer */
+.footer {
+  background-color: rgba(206, 206, 206, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6vh;
 }
