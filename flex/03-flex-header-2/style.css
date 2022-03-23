@@ -2,8 +2,17 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
   background: #eee;
   font-family: Besley, serif;
 }
@@ -12,21 +21,33 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-wrap, .right-wrap {
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-end; */
 }
 
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
-  width: 48px;
-  height:  48px;
+  width: 4.8rem;
+  height:  4.8rem;
+  margin: 1rem 1rem 1rem 2rem;
 }
 
 .logo {
   color: rebeccapurple;
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: 900;
   font-style: italic;
+  margin: 0 2rem 0 1rem;
 }
 
 button {
@@ -40,9 +61,15 @@ button {
 a {
   /* this removes the line under our links */
   text-decoration: none;
+  font-size: 1.4rem;
   color: rebeccapurple;
+
+  margin-right: 2rem;
 }
 
 ul {
   list-style-type: none;
+
+  display: flex;
+  align-items: center;
 }
