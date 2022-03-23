@@ -70,13 +70,17 @@ a {
 }
 
 /* Buttons */
+.buttons {
+  display: flex;
+  gap: 1.5rem;
+}
 .buttons button {
   padding: 1rem;
 }
 
 /* Footer */
 .footer {
-  background-color: rgba(206, 206, 206, 0.75);
+  background-color: #eeeeee;
   display: flex;
   align-items: center;
   justify-content: space-between;
