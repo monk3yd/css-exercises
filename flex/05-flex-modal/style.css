@@ -31,10 +31,10 @@ body {
   width: 48rem;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 1.5rem;
   
   display: flex;
   justify-content: space-around;
+  padding: 1.5rem;
 }
 
 .icon {
@@ -45,6 +45,7 @@ body {
   width: 4.2rem;
   height: 4.2rem;
   border-radius: 50%;
+  
   display: flex;
   align-items: center;
   justify-content: center;
